@@ -1,6 +1,7 @@
 # Enhanced Automatic Shifted Log Transformer (EASLT)
 
 [![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI version](https://img.shields.io/pypi/v/EASLT.svg)](https://pypi.org/project/EASLT/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Automatically transform skewed data into more normal distributions using Monte Carlo optimized shifted log transformation.**
@@ -257,12 +258,13 @@ compare_normality(original_data, transformed_data)
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🐛 Issues & Support
+## Issues & Support
 
 - **Bug Reports**: [GitHub Issues](https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/issues)
 - **Email**: akmalhusain2003@gmail.com
 
 ---
+
 
 
 
