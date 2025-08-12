@@ -116,8 +116,6 @@ setup(
     project_urls={
         "Homepage": "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log",
         "Repository": "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log.git",
-        "Documentation": "https://enhanced-automatic-shifted-log.readthedocs.io",
-        "Changelog": "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/blob/main/CHANGELOG.md",
         "Issues": "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/issues",
         "Bug Reports": "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/issues",
         "Source": "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log",
@@ -258,7 +256,6 @@ def print_success_message():
     print("  >>> transformer.fit(your_data)")
     print("  >>> transformed_data = transformer.transform(your_data)")
     print("")
-    print("Documentation: https://enhanced-automatic-shifted-log.readthedocs.io")
     print("Issues: https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/issues")
     print("="*80)
 

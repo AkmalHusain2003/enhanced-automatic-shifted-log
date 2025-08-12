@@ -103,8 +103,6 @@ all = [
 [project.urls]
 Homepage = "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log"
 Repository = "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log.git"
-Documentation = "https://enhanced-automatic-shifted-log.readthedocs.io"
-Changelog = "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/blob/main/CHANGELOG.md"
 Issues = "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/issues"
 
 [project.scripts]
