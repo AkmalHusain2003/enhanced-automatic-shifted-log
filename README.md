@@ -42,7 +42,7 @@ pip install EASLT
 
 ### Simple Transformation
 ```python
-from easlt import AutomaticShiftedLogTransformer
+from EASLT import AutomaticShiftedLogTransformer
 
 # Initialize
 transformer = AutomaticShiftedLogTransformer()
@@ -263,6 +263,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: akmalhusain2003@gmail.com
 
 ---
+
 
 
 
