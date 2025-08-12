@@ -5,7 +5,7 @@
 
 **Automatically transform skewed data into more normal distributions using Monte Carlo optimized shifted log transformation.**
 
-## 🚀 Quick Start
+## Quick Start
 
 ```python
 from easlt import AutomaticShiftedLogTransformer
@@ -21,17 +21,17 @@ transformed_data = transformer.fit_transform(data)
 # That's it! Your data is now more normal
 ```
 
-## ✨ Key Features
+## Key Features
 
-- **🔄 Automatic Parameter Tuning** - No manual hyperparameter selection needed
-- **⚡ Fast Processing** - Numba-accelerated computations
-- **🛡️ Robust** - Handles negative values, zeros, and outliers automatically  
-- **🎯 Adaptive** - Different strategies for different data complexities
-- **📊 Multi-metric** - Uses multiple normality tests for reliable results
-- **🔗 Scikit-learn Compatible** - Drop-in replacement for StandardScaler
-- **↩️ Reversible** - Full inverse transformation support
+- ** Automatic Parameter Tuning** - No manual hyperparameter selection needed
+- ** Fast Processing** - Numba-accelerated computations
+- ** Robust** - Handles negative values, zeros, and outliers automatically  
+- ** Adaptive** - Different strategies for different data complexities
+- ** Multi-metric** - Uses multiple normality tests for reliable results
+- ** Scikit-learn Compatible** - Drop-in replacement for StandardScaler
+- ** Reversible** - Full inverse transformation support
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install easlt
@@ -44,7 +44,7 @@ cd easlt
 pip install -e .
 ```
 
-## 📖 Basic Usage
+## Basic Usage
 
 ### Simple Transformation
 ```python
@@ -83,7 +83,7 @@ quality = transformer.evaluate_transformation_quality(your_data)
 print(quality)
 ```
 
-## ⚙️ Parameters
+## Parameters
 
 ### Core Parameters
 
@@ -119,7 +119,7 @@ print(quality)
 |-----------|------|---------|-------------|
 | `mc_convergence_tolerance` | float | 1e-4 | Convergence threshold for optimization |
 
-## 🎯 How It Works
+## How It Works
 
 The transformer follows these steps:
 
@@ -140,7 +140,7 @@ Uses multiple normality metrics:
 
 Weights are automatically optimized using Monte Carlo sampling.
 
-## 📊 Example: Before vs After
+## Example: Before vs After
 
 ```python
 import matplotlib.pyplot as plt
@@ -170,7 +170,7 @@ plt.tight_layout()
 plt.show()
 ```
 
-## 🔧 Advanced Usage
+## Advanced Usage
 
 ### Working with Pandas DataFrames
 ```python
@@ -209,7 +209,7 @@ pipeline.fit(X_train, y_train)
 predictions = pipeline.predict(X_test)
 ```
 
-## 🚦 Error Handling
+## Error Handling
 
 The transformer includes robust error handling:
 
@@ -218,7 +218,7 @@ The transformer includes robust error handling:
 - **Optimization Failures** - Default weights when Monte Carlo fails
 - **Invalid Transformations** - Rejects unstable parameter combinations
 
-## 🧪 Testing Your Results
+## Testing Your Results
 
 ```python
 from scipy.stats import skew, kurtosis
@@ -239,7 +239,7 @@ def compare_normality(original, transformed):
 compare_normality(original_data, transformed_data)
 ```
 
-## 🤔 When to Use This
+## When to Use This?
 
 **Good for:**
 - Machine learning preprocessing
@@ -253,13 +253,13 @@ compare_normality(original_data, transformed_data)
 - Time series (use with caution)
 - Very small datasets (< 8 samples)
 
-## 📚 References
+## References
 
 - Feng, Q., Hannig, J., & Marron, J. S. (2016). *A Note on Automatic Data Transformation*
 - Tukey, J. W. (1977). *Exploratory Data Analysis*
 - Box, G. E. P., & Cox, D. R. (1964). *An analysis of transformations*
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -270,5 +270,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ for the data science community**
+
 
