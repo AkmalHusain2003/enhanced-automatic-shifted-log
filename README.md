@@ -23,13 +23,13 @@ transformed_data = transformer.fit_transform(data)
 
 ## Key Features
 
-- ** Automatic Parameter Tuning** - No manual hyperparameter selection needed
-- ** Fast Processing** - Numba-accelerated computations
-- ** Robust** - Handles negative values, zeros, and outliers automatically  
-- ** Adaptive** - Different strategies for different data complexities
-- ** Multi-metric** - Uses multiple normality tests for reliable results
-- ** Scikit-learn Compatible** - Drop-in replacement for StandardScaler
-- ** Reversible** - Full inverse transformation support
+- **Automatic Parameter Tuning** - No manual hyperparameter selection needed
+- **Fast Processing** - Numba-accelerated computations
+- **Robust** - Handles negative values, zeros, and outliers automatically  
+- **Adaptive** - Different strategies for different data complexities
+- **Multi-metric** - Uses multiple normality tests for reliable results
+- **Scikit-learn Compatible** - Drop-in replacement for StandardScaler
+- **Reversible** - Full inverse transformation support
 
 ## Installation
 
@@ -269,6 +269,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: akmalhusain2003@gmail.com
 
 ---
+
 
 
 
