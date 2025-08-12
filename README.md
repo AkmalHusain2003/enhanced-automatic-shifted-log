@@ -1,6 +1,6 @@
 # Enhanced Automatic Shifted Log Transformer
 
-**Automatically transform skewed data into more normal distributions using AI-optimized shifted log transformation.**
+**Automatically transform skewed data into more normal distributions using Monte Carlo optimized shifted log transformation.**
 
 ---
 
@@ -176,3 +176,4 @@ If this project helped you, please consider giving it a ⭐️ on GitHub!
 ---
 
 *Built with ❤️ for the data science community*
+
