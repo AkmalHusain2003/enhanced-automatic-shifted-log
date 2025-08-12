@@ -8,7 +8,7 @@
 ## Quick Start
 
 ```python
-from easlt import AutomaticShiftedLogTransformer
+from EASLT import AutomaticShiftedLogTransformer
 import numpy as np
 
 # Create some skewed data
@@ -263,6 +263,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: akmalhusain2003@gmail.com
 
 ---
+
 
 
 
