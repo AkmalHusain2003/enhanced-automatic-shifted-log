@@ -26,7 +26,7 @@ def get_version():
     return "0.1.0"
 
 setup(
-    name="enhanced-automatic-shifted-log",
+    name="EASLT",
     version=get_version(),
     description="Enhanced Automatic Shifted Log Transformer with Monte Carlo optimization",
     long_description=long_description,
