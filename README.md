@@ -37,12 +37,6 @@ transformed_data = transformer.fit_transform(data)
 pip install EASLT
 ```
 
-Or from source:
-```bash
-git clone https://github.com/your-username/easlt.git
-cd easlt
-pip install -e .
-```
 
 ## Basic Usage
 
@@ -269,6 +263,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Email**: akmalhusain2003@gmail.com
 
 ---
+
 
 
 
