@@ -17,13 +17,13 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 # Read version from __init__.py
 def get_version():
-    version_file = here / "src" / "enhanced_aslt" / "__init__.py"
+    version_file = here / "src" / "EASLT" / "__init__.py"
     if version_file.exists():
         with open(version_file, "r", encoding="utf-8") as f:
             for line in f:
                 if line.startswith("__version__"):
                     return line.split("=")[1].strip().strip('"').strip("'")
-    return "0.1.0"
+    return "0.0.1"
 
 setup(
     name="EASLT",
@@ -88,12 +88,6 @@ setup(
             "jupyter>=1.0.0", "matplotlib>=3.3.0", "seaborn>=0.11.0", "hypothesis>=6.0",
             "sphinx>=4.0", "sphinx-rtd-theme>=1.0", "numpydoc>=1.1", "myst-parser>=0.15",
             "plotly>=5.0.0", "numba>=0.56.0", "llvmlite>=0.39.0"
-        ]
-    },
-    entry_points={
-        "console_scripts": [
-            "aslt-benchmark=enhanced_aslt.cli:benchmark_command",
-            "aslt-validate=enhanced_aslt.cli:validate_command",
         ]
     },
     classifiers=[

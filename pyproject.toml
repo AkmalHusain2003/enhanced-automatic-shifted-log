@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "EASLT"
-version = "0.1.0"
+version = "0.0.1"
 description = "Enhanced Automatic Shifted Log Transformer with Monte Carlo optimization"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -102,7 +102,7 @@ Issues = "https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/issu
 
 [tool.setuptools]
 package-dir = {"" = "src"}
-packages = ["enhanced_aslt"]
+packages = ["EASLT"]
 
 [tool.setuptools.package-data]
-enhanced_aslt = ["py.typed", "*.pyi"]
+EASLT = ["py.typed", "*.pyi"]
