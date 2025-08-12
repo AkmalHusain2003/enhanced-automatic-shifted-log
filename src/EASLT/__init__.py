@@ -49,7 +49,7 @@ from .EASLT import (
 )
 
 # Package metadata
-__version__ = "0.1.0"
+__version__ = "0.0.1"
 __author__ = "Muhammad Akmal Husain"
 __email__ = "akmalhusain2003@gmail.com"
 __description__ = "Enhanced Automatic Shifted Log Transformer with Monte Carlo optimization"
@@ -139,4 +139,5 @@ def _show_startup_info():
     print("Ready for Monte Carlo optimized transformations!")
 
 # Uncomment the line below if you want startup info (not recommended for production)
+
 # _show_startup_info()
