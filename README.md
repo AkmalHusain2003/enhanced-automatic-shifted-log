@@ -259,20 +259,16 @@ compare_normality(original_data, transformed_data)
 - Tukey, J. W. (1977). *Exploratory Data Analysis*
 - Box, G. E. P., & Cox, D. R. (1964). *An analysis of transformations*
 
-## 🤝 Contributing
-
-Contributions welcome! Please see our [Contributing Guidelines](CONTRIBUTING.md).
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🐛 Issues & Support
 
-- **Bug Reports**: [GitHub Issues](https://github.com/your-username/easlt/issues)
-- **Questions**: [GitHub Discussions](https://github.com/your-username/easlt/discussions)
-- **Email**: your-email@example.com
+- **Bug Reports**: [GitHub Issues](https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/issues)
+- **Email**: akmalhusain2003@gmail.com
 
 ---
 
 **Made with ❤️ for the data science community**
+
