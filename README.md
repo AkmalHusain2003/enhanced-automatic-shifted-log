@@ -263,7 +263,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Bug Reports**: [GitHub Issues](https://github.com/AkmalHusain2003/enhanced-automatic-shifted-log/issues)
 - **Email**: akmalhusain2003@gmail.com
 
+## Publication
+Still on progress
+
 ---
+
 
 
 
