@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "EASLT"
-version = "0.0.2"
+version = "0.0.4"
 description = "Enhanced Automatic Shifted Log Transformer with Monte Carlo optimization"
 readme = "README.md"
 requires-python = ">=3.7"
