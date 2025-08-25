@@ -60,8 +60,7 @@ X_original = transformer.inverse_transform(X_transformed)
 transformer = AutomaticShiftedLogTransformer(
     mc_iterations=2000,           # More Monte Carlo iterations
     random_state=42,              # Reproducible results
-    min_improvement_skewed=0.05,  # Higher improvement threshold
-    normality_threshold=0.9       # Skip transformation if already normal
+    min_improvement_skewed=0.05   # Higher improvement threshold
 )
 
 X_transformed = transformer.fit_transform(your_data)
@@ -266,6 +265,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Still on progress
 
 ---
+
 
 
 
