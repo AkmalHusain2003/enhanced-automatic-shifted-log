@@ -93,9 +93,8 @@ print(quality)
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `min_improvement_normal` | float | 0.001 | Minimum improvement needed for normal-ish data |
-| `min_improvement_skewed` | float | 0.01 | Minimum improvement needed for skewed data |
-| `normality_threshold` | float | 0.8 | Skip transformation if normality score > this |
+| `min_improvement_normal` | float | 0.001 | Minimum improvement needed for normal-ish data (in percentage) |
+| `min_improvement_skewed` | float | 0.01 | Minimum improvement needed for skewed data (in percentage) |
 | `early_stop_threshold` | float | 0.85 | Stop optimization if score reaches this |
 
 ### Quality Control
@@ -104,9 +103,9 @@ print(quality)
 |-----------|------|---------|-------------|
 | `max_kurtosis` | float | 8.0 | Reject transformations with higher kurtosis |
 | `max_skewness` | float | 1.0 | Reject transformations with higher skewness |
-| `outlier_threshold_normal` | float | 0.05 | Outlier sensitivity for normal data |
-| `outlier_threshold_skewed` | float | 0.02 | Outlier sensitivity for skewed data |
-| `max_winsor_limits` | float | 0.08 | Maximum winsorization percentage |
+| `outlier_threshold_normal` | float | 0.05 | Outlier sensitivity for normal data (in percentage) |
+| `outlier_threshold_skewed` | float | 0.02 | Outlier sensitivity for skewed data (in percentage) |
+| `max_winsor_limits` | float | 0.08 | Maximum winsorization percentage (in percentage) |
 
 ### Monte Carlo Optimization
 
@@ -267,6 +266,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Still on progress
 
 ---
+
 
 
 
