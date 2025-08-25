@@ -400,16 +400,15 @@ class AutomaticShiftedLogTransformer(BaseEstimator, TransformerMixin):
     
     def __init__(self,
                  # Core adaptive parameters
-                 min_improvement_normal=0.001,
-                 min_improvement_skewed=0.01,
+                 min_improvement_normal=0.01, # default = 1% (If want stricter improvement, increase this)
+                 min_improvement_skewed=0.01, # default = 1% (If want stricter improvement, increase this)
                  
                  # Monte Carlo optimization
                  mc_iterations=1000,
                  mc_convergence_tolerance=1e-4,
                  
                  # Early stopping and thresholds
-                 early_stop_threshold=0.85,
-                 normality_threshold=0.8,
+                 early_stop_threshold=0.85, # (If want stricter improvement, increase this in percentage)
                  
                  # Transformation parameters
                  beta_range=None,
@@ -427,7 +426,6 @@ class AutomaticShiftedLogTransformer(BaseEstimator, TransformerMixin):
         self.min_improvement_normal = min_improvement_normal
         self.min_improvement_skewed = min_improvement_skewed
         self.early_stop_threshold = early_stop_threshold
-        self.normality_threshold = normality_threshold
         
         # Monte Carlo optimization
         self.mc_iterations = mc_iterations

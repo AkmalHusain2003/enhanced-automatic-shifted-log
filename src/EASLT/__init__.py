@@ -49,7 +49,7 @@ from .EASLT import (
 )
 
 # Package metadata
-__version__ = "0.0.4"
+__version__ = "0.0.5"
 __author__ = "Muhammad Akmal Husain"
 __email__ = "akmalhusain2003@gmail.com"
 __description__ = "Enhanced Automatic Shifted Log Transformer with Monte Carlo optimization"
