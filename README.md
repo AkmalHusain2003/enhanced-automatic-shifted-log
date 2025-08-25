@@ -92,7 +92,7 @@ print(quality)
 
 | Parameter | Type | Default | Description |
 |-----------|------|---------|-------------|
-| `min_improvement_normal` | float | 0.001 | Minimum improvement needed for normal-ish data (in percentage) |
+| `min_improvement_normal` | float | 0.01 | Minimum improvement needed for normal-ish data (in percentage) |
 | `min_improvement_skewed` | float | 0.01 | Minimum improvement needed for skewed data (in percentage) |
 | `early_stop_threshold` | float | 0.85 | Stop optimization if score reaches this |
 
@@ -265,6 +265,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Still on progress
 
 ---
+
 
 
 
